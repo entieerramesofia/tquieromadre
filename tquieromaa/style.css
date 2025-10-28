@@ -1,0 +1,721 @@
+  
+    body {
+        /* background-image: url(img/fon.jpg);
+         background-size: cover;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+        /* margin: 0;
+         padding: 0;*/
+   background-color: #0040ff;
+         
+       }
+    
+       .archivo-black-regular {
+         font-family: "Archivo Black", sans-serif;
+         font-weight: 400;
+         font-style: normal;
+       }
+       
+       
+   .bitcount-prop-single-ink-uniquifier {
+     font-family: "Bitcount Prop Single Ink", system-ui;
+     font-optical-sizing: auto;
+     font-weight: 400;
+     font-style: normal;
+     font-variation-settings:
+       "slnt" 0,
+       "CRSV" 0.5,
+       "ELSH" 0,
+       "ELXP" 0,
+       "SZP1" 100,
+       "SZP2" 0,
+       "XPN1" 0,
+       "XPN2" 0,
+       "YPN1" 0,
+       "YPN2" 0;
+   }
+   
+   
+       
+       .material-symbols-outlined {
+         font-variation-settings:
+         'FILL' 0,
+         'wght' 400,
+         'GRAD' 0,
+         'opsz' 40
+       }
+   
+       .codystar-regular {
+         font-family: "Codystar", sans-serif;
+         font-weight: 400;
+         font-style: normal;
+       }
+   
+       .libre-barcode-39-extended-text-regular {
+         font-family: "Libre Barcode 39 Extended Text", system-ui;
+         font-weight: 400;
+         font-style: normal;
+       }
+       
+       .coral-pixels-regular {
+         font-family: "Coral Pixels", serif;
+         font-weight: 400;
+         font-style: normal;
+       }
+       
+       
+       .nav-link {
+       
+       font-family: "Libre Barcode 39 Extended Text", sans-serif;
+       font-weight: 400;
+       font-style: normal;
+       /*padding: 40 px; (característacas para ponerle)
+       border: 4px solid #020070;
+       border-radius: 10 px;
+       margin: 10 px; */
+       text-decoration: none;
+       transition: all 0.8s ease;
+       
+       }
+       
+       h1 {
+         margin: 5;
+         padding: 8;
+         font-family: "Libre Barcode 39 Extended Text", system-ui;
+         font-weight: 400;
+         font-style: normal;
+         font-size: 50px;
+       }
+   
+       .titulo-principal {
+   
+         font-size: 3.5rem;              /* tamaño inicial */
+         text-align: center;
+         transition: all 0.9s ease;      /* animación suave */
+         color: #ff0000;                    
+         cursor: default;  
+         }/* cursor normal */
+   
+   
+         .titulo-principal:hover {
+           font-size: 5.2rem; 
+           text-align: center;
+           /* aumenta de tamaño */
+           text-shadow: 0 0 15px rgb(255, 255, 237),
+                        0 0 30px rgb(0, 4, 255); /* brillo */
+           color: rgb(111, 230, 248); /* color del icono */
+       }
+   
+       p1 {
+         display: block;
+         text-align: center;
+         margin: 20px auto;
+         color: #00ff08;
+         font-weight: 400;
+         font-style: normal;
+         font-size: 16px;
+   
+       }
+   
+   
+       p2 {
+         display: block;
+         text-align: center;
+         font-family: "Codystar", sans-serif;
+         color: #00ff08;
+         font-weight: 400;
+         font-style: normal;
+         font-size: 1.2rem;              /* tamaño inicial */
+         transition: all 0.9s ease;      /* animación suave */
+         cursor: default;  
+     
+       }
+   
+   
+       p2:hover {
+         transition: all 0.9s ease;      /* animación suave */
+         font-size: 1.7rem; 
+   
+         text-align: center;
+         /* aumenta de tamaño */
+         text-shadow: 0 0 15px rgb(0, 13, 255),
+                      0 0 30px rgb(255, 102, 0); /* brillo */
+                      color: #ffa8f1;
+       }
+   
+   
+   p5 {
+     display: block;
+     text-align: center;
+     font-size: 35px; 
+     color: #15ff00;
+   
+   }
+   
+       p8 {
+         display: block;
+         text-align: left;
+         font-family: "Bitcount Prop Single Ink", system-ui;
+         color: #ff00dd;
+         font-weight: 400;
+         font-style: bold;
+         font-size: 1.2rem;              /* tamaño inicial */
+         transition: all 0.9s ease;      /* animación suave */
+         cursor: default;  
+         letter-spacing: 0.05cm;
+         font-size: 20px;
+         margin-left: 50px auto;
+   
+       }
+   
+       p9 {
+   
+         display: block;
+         text-align: center;
+         font-size: 80px;
+         color: #ffffff;
+         font-family: "Coral Pixels", serif;
+   
+   
+       }
+       
+   
+       p10{
+         font-family: "Lexend", sans-serif;
+         color: rgb(0, 213, 255);
+         display: block;
+         text-align: center;
+   
+       }
+   
+       p {
+         font-family: "Lexend", sans-serif;
+         color: rgb(0, 213, 255);
+   
+       }
+   
+       h2 
+        {
+       font-family: "Archivo Black", sans-serif;
+       font-size: 25px;
+       color: #ff0000;
+       text-align: center;
+   
+       }
+   
+   
+   .lexend-uniquifier {
+     font-family: "Lexend", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: 300;
+     font-style: normal;
+   }
+       
+      
+       
+       a {
+       text-transform: uppercase;
+       display: block;
+       text-align: center;
+       font-family: "Bitcount Prop Single Ink", system-ui;
+       color: #ff00dd;
+       font-weight: 400;
+       font-style: bold;
+       font-size: 1.2rem;              /* tamaño inicial */
+       transition: all 0.9s ease;      /* animación suave */
+       cursor: default;  
+       letter-spacing: 0.05cm;
+       font-size: 29px;
+     
+       }
+       
+   
+   
+       button.nav-link {
+         background: none;       /* sin fondo */
+         border: none;           /* sin borde */
+         padding: 0;             /* sin padding extra */
+         cursor: pointer;
+         font-size: 1.5rem;      /* tamaño de icono */
+         color: inherit;   
+         font-size: 29px;
+       }
+   
+       .nav-link
+       /*.nav-link3*/ {
+         background: none;       /* sin fondo */
+         border: none;           /* sin borde */
+         padding: 0;             /* sin padding extra */
+         cursor: pointer;
+         font-size: 1.5rem;      /* tamaño de icono */
+         color: inherit;   
+         font-size: 29px;
+       }
+   
+       button.nav-link:hover 
+       .nav-link:hover*/ {
+         color: #ffcc00;  /* ejemplo: dorado al pasar el mouse */
+       }
+   
+       
+         
+       footer {
+         position: fixed;
+         bottom: 0;
+         right: 0;
+         width: 50%;
+         background: linear-gradient(to top, rgba(255, 80, 226, 0.85), rgb(251, 255, 1));
+         backdrop-filter: blur(1px);
+         -webkit-backdrop-filter: blur(1px);
+         color: #0bc63d;
+         text-align: left;
+         padding: 1rem;
+         z-index: 1000;
+         font-size: 0.9rem;
+       
+         /* 🌸 nuevo: esquinas redondeadas y suave sombra */
+         border-top-left-radius: 20px;  /* esquina superior izquierda */
+         border-top-right-radius: 20px; /* esquina superior derecha */
+         box-shadow: 0 -3px 15px rgba(255, 0, 200, 0.4);
+       }
+       
+         
+         footer p {
+           /*margin: 0;*/
+           padding: 0 0.5rem;              /* espacio lateral */
+           word-wrap: break-word;        /* por si el texto es larguísimo */
+           text-shadow: 0 0 3px rgba(255, 57, 57, 0.5); /* glow suave */
+           font-size: 15px;
+           line-height: 1.2;
+         } 
+         
+         
+         /* capa del destello */
+       .magic-flash {
+           position: fixed;
+           top: 0;
+           left: 0;
+           width: 100vw;
+           height: 100vh;
+           background: radial-gradient(circle, rgba(255, 235, 235, 0.9) 0%, rgba(255,255,255,0) 70%);
+           opacity: 0;
+           pointer-events: none;
+           z-index: 2000;
+           animation: flash 1s ease-out forwards;
+         }
+         
+         @keyframes flash {
+           0% { opacity: 0; transform: scale(0.6); }
+           30% { opacity: 1; transform: scale(1.2); }
+           60% { opacity: 0.7; transform: scale(1.5); }
+           100% { opacity: 0; transform: scale(2); }
+         }
+       
+   footer, footer * {
+           color: #ff54b5 !important;
+         }
+       
+       /*ZONA DE ARRIBA ÍCONOS, HOME, CONTACTO, ETC*/
+       nav ul {   /* quitar los bullets */
+           list-style: none;
+           margin: 1;
+           padding: 4;
+           display: flex;
+           gap: 3.0rem; /* espacio entre items */
+           font-size: 25px;
+   
+         }
+         
+         nav li {
+           position: relative;
+         }
+         
+         /* íconos antes de los links */
+         nav li a::before
+         nav li a::after {
+       
+           font-weight: 900;
+           margin-right: 2px;
+           color: rgb(248, 111, 179); /* color del icono */
+           cursor: pointer;
+   
+         }
+         
+         /* icono para HOME */
+         nav li:first-child a::before {
+           content: "✮⋆˙";  }
+         
+         /* icono para CONTACTO */
+         nav li:nth-child(2) a::before {
+           content: "☘︎ ݁˖";  } /* fa-envelope */
+               /* icono para otro */
+         nav li:nth-child(3) a::before {
+           content: "⚘⚘";  } /* fa-envelope */
+           nav li:nth-child(3) a::after {
+           content: "⚘⚘";  } /* fa-envelope */
+         
+         
+   .nav-link {
+     color: #ff54b5;
+     display: inline-block;
+     transition: all 0.4s ease;
+     
+   }
+   
+   .nav-link:hover {
+     color: #57ff4b; /* cambia el color del texto */
+     transform: scale(1.2); /* agranda un poco el tamaño */
+     text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
+                  0 0 25px rgb(0, 225, 255); /* brillo */
+   }
+   
+   /* === Ícono Material Symbols === */
+   .material-symbols-outlined {
+     font-variation-settings:
+       'FILL' 0,
+       'wght' 400,
+       'GRAD' 0,
+       'opsz' 40;
+     font-size: 35px;
+     color: rgb(0, 213, 255);
+     vertical-align: middle;
+     cursor: pointer;
+     transition: all 0.3s ease;
+   }
+   
+   /* efecto hover */
+   .material-symbols-outlined:hover {
+     color: #fff700;
+     transform: scale(1.3);
+     text-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
+   }
+   
+   .p3 {
+     display: block;
+     text-align: right;
+     font-weight: 400;
+     font-style: bold;
+     color: #ffffff;
+     font-size: 34px;
+     margin-top: 4rem;
+     margin-bottom: 4rem;
+     text-decoration: none; /* quita el subrayado */      /* mantiene el color original */
+     transform: scale(1.05);
+   
+     margin-right: 50px;
+   
+     font-family: "Coral Pixels", serif;
+   }
+   
+   /* === textos p4 y p5 === */
+   .p4, .p5 {
+     display: block;
+     text-align: center;
+     font-family: "Bitcount Prop Single Ink", system-ui;
+     font-optical-sizing: auto;
+     font-weight: 400;
+     font-style: normal;
+     font-size: 38px;
+     margin-top: 4rem;
+     margin-bottom: 4rem;
+     transition: all 0.3s ease;
+     text-decoration: none; /* quita el subrayado */      /* mantiene el color original */
+     transform: scale(1.05);
+   
+   }
+   
+   .p4:hover, .p5:hover {
+     text-shadow: 0 0 8px rgba(255, 0, 183, 0.8);
+     text-decoration: none; /* asegura que no se subraye al pasar el mouse */
+     color: #00ff6e;        /* ejemplo de color al hover */
+     text-shadow: 0 0 8px rgba(255, 0, 183, 0.8);
+     transform: scale(1.09);
+   }
+   
+   
+   
+   img.onlyonepng{
+     width: 20%;
+     height: auto;
+     
+    }
+   
+     img.imagefooter{ 
+       width: 20%;
+       height: auto;
+       float: left;
+       aspect-ratio: 1 / 2;
+       object-fit: cover;
+       margin: 50px 0;
+     }
+     img.imagefooter3{ 
+       width: 70%;
+       height: cover;
+       float: auto;
+       object-fit: cover;
+       margin: 10px ;
+     }
+     
+     img.ooogif{
+       
+       float: left;
+       width: auto;
+       height: auto;
+     }
+     .roungif {
+       display: block;             /* convierte la imagen en un bloque */
+       margin: 0 auto;             /* centra horizontalmente */
+       width: 200px;               /* ajusta el tamaño */
+       height: auto;               /* mantiene proporción */
+       position: relative;         /* por si quiero moverla luego */
+       top: 30px;                  /* baja un poquito */
+       transition: transform 0.4s ease, filter 0.4s ease;
+     }
+     
+     /* efecto al pasar el mouse */
+     .roungif:hover {
+       transform: scale(1.1) rotate(180deg);
+       filter: brightness(1.3);
+     }
+     
+     
+     img.miauugif /*AKA KONDA.GIF JAJSJS*/
+     {
+       display: block;             /* convierte la imagen en un bloque */
+       margin: 10 auto;             /* centra horizontalmente */
+       width: 200px;               /* ajusta el tamaño si quieres */
+       height: auto;               /* mantiene proporción */
+       position: relative;         /* por si quieres moverla luego */
+       top: 30px;                  /* baja un poquito si lo necesitas */
+       transition: transform 0.4s ease, filter 0.4s ease;
+     }
+   
+   
+     .miauugif:hover {
+       transform: scale(1.9) rotate(360deg);
+       filter: brightness(1.9);
+     }
+   
+     head {
+       background-color: rgb(157, 0, 255);
+       transition: background 0.3s, color 0.3s;
+       font-style: rgb(150, 23, 23);
+   
+     }
+     
+     /* Modo oscuro */
+     head.dark-mode {
+       background-color: #afebfd;
+       color: #050602;
+       font-style: black;
+   
+     }
+     
+     /* === EFECTO DE CAMBIO DE COLOR ALEATORIO === */
+   body {
+     transition: background-color 0.6s ease, background-image 0.6s ease;
+   }
+   
+   body.color-mode {
+     filter: brightness(1.1) saturate(1.2);
+     transition: all 0.6s ease;
+   }
+   
+   /*
+   body.contacto {
+     background-image: url("img/fon.jpg");
+     background-size: cover;       /* cubre toda la pantalla */
+     /*background-position: center;  /* centrada */
+     /*background-repeat: no-repeat; /* sin repetirse */
+     /*background-attachment: fixed; /* se queda fija al hacer scroll 
+   }
+   */
+   p {
+     display: block;
+     text-align: center;
+   
+   }
+   
+   p4 {
+   
+     display: block;
+     text-align: center;
+     font-optical-sizing: auto;
+     font-weight: 400;
+     font-style: normal;
+     color: #ff0000;
+     font-size: 32px;
+     margin-top: 4rem;
+     margin-bottom: 4rem;
+     /*transition: all 0.3s ease;*/
+     text-decoration: none; /* quita el subrayado */      /* mantiene el color original */
+     /*transform: scale(1.05);*/
+   
+   }
+   
+   /* quita el subrayado de los enlaces de instagram y mail */
+   .p4 a, 
+   .p5 a {
+     font-family: "Bitcount Prop Single Ink", system-ui;
+   
+     text-decoration: none; /* elimina subrayado */
+     transition: color 0.3s ease, text-shadow 0.3s ease;
+   }
+   
+   /* efecto hover con brillo bonito */
+   .p4 a:hover, 
+   .p5 a:hover {
+     text-decoration: none; 
+     color: #00ff6e; /* puedes cambiar el color si quieres */
+     text-shadow: 0 0 10px rgba(255, 242, 4, 0.8);
+   }
+   
+   
+   p6 {
+     display: block;
+     text-align: center;
+     font-family: "Archivo Black", sans-serif;
+     color: #ff0000;
+     font-weight: 400;
+     font-style: bold;
+     font-size: 1.2rem;              /* tamaño inicial */
+     transition: all 0.9s ease;      /* animación suave */
+     cursor: default;  
+     letter-spacing: 0.04cm;
+     font-size: 19px;
+   
+   }
+   
+   
+   p7 {
+     display: block;
+     text-align: right;
+     font-family: "Bitcount Prop Single Ink", system-ui;
+     color: #ff00dd;
+     font-weight: 400;
+     font-style: bold;
+     font-size: 1.2rem;              /* tamaño inicial */
+     transition: all 0.9s ease;      /* animación suave */
+     cursor: default;  
+     letter-spacing: 0.05cm;
+     font-size: 20px;
+   
+   }
+   
+   .mueble {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;              /* ajusta el tamaño que quieras */
+     height: auto;
+     position: relative;      /* mantiene su lugar dentro del flujo */
+     top: 0;                  /* evita desplazamientos */
+   }
+   
+   body{
+     background-image: url("img/bosque.gif");
+     background-size: cover;       /* cubre toda la pantalla */
+     background-position: center;  /* centrada */
+     background-repeat: no-repeat; /* sin repetirse */
+     background-attachment: fixed; /* se queda fija al hacer scroll */
+   }
+   
+     
+     img.yo
+     {
+       display: block;             /* convierte la imagen en un bloque */
+       margin: 10 auto;             /* centra horizontalmente */
+       width: 400px;               /* ajusta el tamaño si quieres */
+       height: auto;               /* mantiene proporción */
+       position: relative;         /* por si quieres moverla luego */
+       top: 30px;                  /* baja un poquito si lo necesitas */
+       transition: transform 0.4s ease, filter 0.4s ease;
+     }
+   
+       img.yo2 {
+       width: 60%;
+       display: block;             /* convierte la imagen en un bloque */
+       margin: 80;             /* centra horizontalmente */
+       height: 60%;               /* mantiene proporción */
+       position: relative;         /* por si quieres moverla luego */
+       transition: transform 0.4s ease, filter 0.4s ease;
+     }
+   
+     /* Contenedor para alinear las imágenes horizontalmente */
+   .imagenes-yo {
+     display: flex;
+     justify-content: center;  /* centra horizontalmente */
+     align-items: center;      /* alinea al mismo nivel vertical */
+     gap: 40px;                /* espacio entre las imágenes */
+     margin: 50px 0;           /* separación vertical respecto al resto del contenido */
+   }
+   
+   /* imagen izquierda (YOPi.png) */
+   img.yo {
+     width: 300px;
+     height: auto;
+     transition: transform 0.4s ease, filter 0.4s ease;
+   }
+   
+   /* imagen derecha (YO.png) */
+   img.yo2 {
+     width: 300px;
+     height: auto;
+     transition: transform 0.5s ease, filter 0.5s ease;
+     cursor: pointer;
+   }
+   
+   /* efecto hover en YO.png */
+   img.yo2:hover {
+     transform: scale(1.15) rotate(5deg);
+     filter: brightness(1.3) drop-shadow(0 0 15px #00eaff);
+   }
+   
+   /*
+   img.tampicopng{
+    
+     display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;        
+   height: auto;
+   position: relative;     
+   }
+   */
+   
+   .tampico {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     position: relative;
+     width: 40%;        /* ajusta el tamaño */
+     height: auto;
+     filter: drop-shadow(0 0 15px rgba(255, 255, 200, 0.8)); /* halo suave */
+     transition: filter 0.3s ease, transform 0.3s ease;
+   }
+   
+   /* efecto más intenso al pasar el cursor */
+   .tampico:hover {
+     filter: drop-shadow(0 0 90px rgba(255, 255, 160, 1));
+     transform: scale(1.9); /* un ligero zoom */
+   }
+   .beso {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     position: relative;
+     width: 70%;        /* ajusta el tamaño */
+     height: auto;
+     filter: drop-shadow(0 0 15px rgba(255, 255, 200, 0.8)); /* halo suave */
+     transition: filter 0.3s ease, transform 0.3s ease;
+   }
+   
+   
+   
+   
+   
+   
+   
+   
+   
